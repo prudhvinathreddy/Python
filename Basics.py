@@ -1,18 +1,16 @@
-#printing strings
+
 print("Hello")
 
 #arithmatic operations
 print(2+2)
-
 print(5-2)
-
 print("Two"+"2")
-
 print(2*5)
 print(2**3)
 print(100/3)
 print(100//3)
 
+#variables
 a=20;b=30;
 print(a+b,a-b)
 print(a*2*b)
@@ -23,6 +21,7 @@ a=100
 print(type(a))
 a="100"
 print(type(a))
+
 #assign the type of variable
 a=str(200)
 print(type(a))
@@ -45,7 +44,7 @@ print(a,b,c)
 #how to use PRINT function
 print(a+b+c)
 
-#global Variables
+#global Variables example using functions
 x='awesome' #global variable can be used inside a fun or outside
 def fun():
     print("Python is "+ x)
@@ -60,7 +59,6 @@ print("Python is "+x)
 
 
 #Random numbers
-
 import random
 print(random.randrange(1,10))
 
@@ -76,11 +74,10 @@ print(len(a))
 #loop string
 for x in a:
     print(x)
-
 for x in "hello":
     print(x)
 
-
+#in-range iteration
 for x in range(0,10):
     print(x*2)
 
