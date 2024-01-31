@@ -7,7 +7,7 @@ min_range = int(input('Enter the min range value - '))
 max_range = int(input('Enter max range value - '))
 guessing_number = random.randint(min_range,max_range)
 print("==============================================\n| I have a number in my mind - START GUESSING |\n==============================================")
-#print("")
+
 count = 0
 chances = round(math.log(max_range-min_range+1,2))
 print("\nYou have only ", chances,  "chances to guess the number..!")
